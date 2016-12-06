@@ -8,7 +8,7 @@
     <title>Blog | Flat Theme</title>
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
     <link href="css/materialize.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -28,32 +28,32 @@
                 <a href="#!" class="brand-logo"><img class="responsive-img" src="images/logo.png"></a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Home</a></li>
-                    <li><a href="badges.html">About Us</a></li>
-                    <li><a href="collapsible.html">Services</a></li>
-                    <li><a href="mobile.html">Portfolio</a></li>
-                    <li><a href="mobile.html">Blog</a></li>
-                    <li><a href="mobile.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Home</a></li>
-                    <li><a href="badges.html">About Us</a></li>
-                    <li><a href="collapsible.html">Services</a></li>
-                    <li><a href="mobile.html">Portfolio</a></li>
-                    <li><a href="mobile.html">Blog</a></li>
-                    <li><a href="mobile.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <section class="green accent-3">
             <div class="row pad1 pad2">
-                <div class="col s6 m6 l6">
+                <div class="col s12 m6 l6">
                     <h2 class="white-text">Blog</h2>
                     <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt.</p>   
                 </div> 
-                <div class="col s6 m6 l6">
-                    <p class="white-text">Home/Blog</p>   
+                <div class="col s12 m6 l6">
+                    <p class="white-text right"><a class="white-text" href="index.html">Home/Blog</a></p>   
                 </div>   
             </div>
         </section>
@@ -67,15 +67,27 @@
                         <div class="card-content">
                             <p>Lorem ipsum dolor sit amet.</p>
                             <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                            I am convenient because I require little markup to use effectively. <br>
+                            <button class="waves-effect waves-light btn">Read more</button></p>
                         </div>
                     </div>
                 </div>
-                <aside>
-                    <div class="col s5 m5 l5">
-                    
+                <div class="col s5 m5 l5">
+                    <i class="material-icons prefix">search</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea" placeholder="search"></textarea>
+                    <div class="col s6 m6 l6">
+                        <img class="responsive-img" src="images/ads/ad1.png" alt=""> 
                     </div>
-                </aside>    
+                    <div class="col s6 m6 l6">
+                        <img class="responsive-img" src="images/ads/ad2.png" alt="">     
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <img class="responsive-img" src="images/ads/ad3.png" alt="">    
+                    </div> 
+                    <div class="col s6 m6 l6">
+                        <img class="responsive-img" src="images/ads/ad4.png" alt="">    
+                    </div>   
+                </div>
             </div>
             <div class="row">
                 <div class="col s7 m7 l7">
@@ -86,7 +98,8 @@
                         <div class="card-content">
                             <p>Lorem ipsum dolor sit amet.</p>
                             <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                            I am convenient because I require little markup to use effectively. <br>
+                            <button class="waves-effect waves-light btn">Read more</button></p>
                         </div>
                     </div>
                     <ul class="pagination">
@@ -98,6 +111,41 @@
                         <li class="waves-effect"><a href="#!">5</a></li>
                         <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
                     </ul>    
+                </div>
+                <div class="col s5 m5 l5">
+                    <div class="col s12 m12 l12">
+                        <h5>Blog Categories</h5>    
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <ul>
+                            <li>>Development</li>
+                            <li>>Design</li>
+                            <li>>Updates</li>
+                            <li>>Tutorial</li>
+                            <li>>News</li>
+                        </ul>    
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <ul>
+                            <li>>Joomla</li>
+                            <li>>Wordpress</li>
+                            <li>>Drupal</li>
+                            <li>>Magento</li>
+                            <li>>Bootstrap</li>
+                        </ul>      
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <h5>Tag Cloud</h5>
+                        <div class="chip blue darken-4 white-text">CSS3</div> 
+                        <div class="chip blue darken-4 white-text">HTML5</div>
+                        <div class="chip blue darken-4 white-text">WordPress</div>
+                        <div class="chip blue darken-4 white-text">Joomla</div>
+                        <div class="chip blue darken-4 white-text">Drupal</div>  
+                        <div class="chip blue darken-4 white-text">Bootstrap</div><br>
+                        <div class="chip blue darken-4 white-text">JQuery</div>
+                        <div class="chip blue darken-4 white-text">Tutorial</div>
+                        <div class="chip blue darken-4 white-text">Update</div>
+                    </div>    
                 </div>   
             </div>   
         </section>
@@ -139,7 +187,7 @@
             <div class="footer-copyright">
                 <div class="container">
                     © 2014 Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    <a class="grey-text text-lighten-4 right" href="index.html">Home</a>
                 </div>
             </div>
         </footer>

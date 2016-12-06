@@ -1,0 +1,7 @@
+/* Responsive */
+@ (min-width: 300px) and (max-width: 500px) {
+  .backg {
+    height: 0% !important; }
+
+  body {
+    background-color: red; } }

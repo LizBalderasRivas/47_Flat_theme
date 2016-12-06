@@ -8,7 +8,7 @@
         <title>About Us | Flat Theme</title>
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
+        <link href="sass/main.css" rel="stylesheet">
         <link href="css/materialize.min.css" rel="stylesheet">
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -20,6 +20,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     </head><!--/head-->
     <body>
         <div class="container-fluid">
@@ -28,38 +29,38 @@
                     <a href="#!" class="brand-logo"><img class="responsive-img" src="images/logo.png"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Home</a></li>
-                        <li><a href="badges.html">About Us</a></li>
-                        <li><a href="collapsible.html">Services</a></li>
-                        <li><a href="mobile.html">Portfolio</a></li>
-                        <li><a href="mobile.html">Blog</a></li>
-                        <li><a href="mobile.html">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
-                        <li><a href="sass.html">Home</a></li>
-                        <li><a href="badges.html">About Us</a></li>
-                        <li><a href="collapsible.html">Services</a></li>
-                        <li><a href="mobile.html">Portfolio</a></li>
-                        <li><a href="mobile.html">Blog</a></li>
-                        <li><a href="mobile.html">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
             <section class="green accent-3">
                 <div class="row pad1 pad2 espacios">
-                    <div class="col s6 m6 l6">
+                    <div class="col s12 m6 l6">
                         <h2 class="white-text">About Us</h2>
                         <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore.</p>   
                     </div> 
-                    <div class="col s6 m6 l6">
-                        <p class="white-text">Home/About Us</p>   
+                    <div class="col s12 m6 l6">
+                        <p class="white-text right"><a href="index.html">Home/About Us</a></p>   
                     </div>   
                 </div>
             </section>
             <section class="grey lighten-3">
                 <div class="row pad2">
-                    <div class="col s6 m6 l6">
+                    <div class="col s12 m6 l6">
                         <h5>What we are</h5> 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -68,11 +69,23 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
                     </div>   
-                    <div class="col s6 m6 l6">
-                        <h5>Our Skills</h5>   
+                    <div class="col s12 m6 l6">
+                        <h5>Our Skills</h5>     <!--SKILLS-->
+                        <div class="w3-progress-container">
+                            <div class="w3-progressbar w3-red" style="width:90%">HTML/CSS</div>
+                        </div><br>
+                        <div class="w3-progress-container">
+                            <div class="w3-progressbar w3-green" style="width:70%">Wordpress</div>
+                        </div><br>
+                        <div class="w3-progress-container">
+                            <div class="w3-progressbar w3-blue" style="width:45%">Joomla</div>
+                        </div><br>
+                        <div class="w3-progress-container">
+                            <div class="w3-progressbar w3-yellow" style="width:80%">PHP</div>
+                        </div><br>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row">     <!--TEAM-->
                     <div class="col s12 m12 l12">
                         <h4 class="center">Meet the Team</h4> 
                         <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -80,7 +93,7 @@
                     </div>   
                 </div>
                 <div class="row pad1">
-                    <div class="col s3 m3 l3">
+                    <div class="col s6 m3 l3">
                         <center>
                             <img class="responsive-img circle bordes" src="images/team-member.jpg">
                             <p class="center">David J. Robbins</p>
@@ -89,7 +102,7 @@
                             tempor incididunt ut labore.</p> 
                         </center>  
                     </div>
-                    <div class="col s3 m3 l3">
+                    <div class="col s6 m3 l3">
                         <center>
                             <img class="responsive-img circle bordes" src="images/team-member.jpg">
                             <p class="center">David J. Robbins</p>
@@ -98,7 +111,7 @@
                             tempor incididunt ut labore.</p> 
                         </center>  
                     </div>
-                    <div class="col s3 m3 l3">
+                    <div class="col s6 m3 l3">
                         <center>
                             <img class="responsive-img circle bordes" src="images/team-member.jpg">
                             <p class="center">David J. Robbins</p>
@@ -107,7 +120,7 @@
                             tempor incididunt ut labore.</p> 
                         </center>  
                     </div>
-                    <div class="col s3 m3 l3">
+                    <div class="col s6 m3 l3">
                         <center>
                             <img class="responsive-img circle bordes" src="images/team-member.jpg">
                             <p class="center">David J. Robbins</p>
@@ -174,7 +187,7 @@
                     <div class="footer-copyright">
                         <div class="container">
                         © 2014 Copyright Text
-                            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                            <a class="grey-text text-lighten-4 right" href="index.html">Home</a>
                         </div>
                     </div>
                 </footer>
