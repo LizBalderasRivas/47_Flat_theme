@@ -1,0 +1,191 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		meta(name="description" content="")
+		meta(name="author" content="")
+		title Blog | Flat Theme
+		link(href="css/font-awesome.min.css" rel="stylesheet")
+		link(href="css/animate.css" rel="stylesheet")
+		link(href="sass/main.css" rel="stylesheet")
+		link(href="css/materialize.min.css" rel="stylesheet")
+		link(rel="shortcut icon" href="images/ico/favicon.ico")
+		link(rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		body
+			div.container-fluid
+				nav.indigo.cyan.darken-4
+					div.nav-wrapper
+						a(href="#" data-activates="mobile-demo").button-collapse
+							i.material-icons menu
+						ul.right.hide-on-med-and-down
+							li
+								a(href="index.html") Home
+							li
+								a(href="about-us.html") About Us
+							li
+								a(href="services.html") Services
+							li
+								a(href="portfolio.html") Portfolio
+							li
+								a(href="blog.html") Blog
+							li
+								a(href="contact-us.html") Contact
+						ul.side-nav#mobile-demo
+							li
+								a(href="index.html") Home
+							li
+								a(href="about-us.html") About Us
+							li
+								a(href="services.html") Service
+							li
+								a(href="portfolio.html") Portfolio
+							li
+								a(href="contact-us.html") Contact
+				section.green.accent-3
+					div.row.pad1.pad2.espacios
+						div.col.s12.m6.l6
+							h2.white-text Blog
+							p.white-text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+						div.col.s12.m6.l6
+							p.white-text.right
+								a(href="index.html").white-text Home/Blog
+				section
+					div.row
+						div.col.s12.m7.l7
+							div.card
+								div.card-image
+									img(src="images/blog/blog1.jpg").responsive-img
+								div.card-content
+									p Lorem ipsum dolor sit amet.
+									p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+										br
+										button.waves-effect.waves-light.btn Read More
+							div.card
+								div.card-image
+									img(src="images/blog/blog2.jpg").responsive-img
+								div.card-content
+									p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+										br
+										button.waves-effect.waves-light.btn Read More
+							ul.pagination
+								li.disabled
+									a(href="#!")
+										i.material-icons chevron_left
+								li.active
+									a(href="#!") 1
+								li.waves-effect
+									a(href="#!") 2
+								li.waves-effect
+									a(href="#!") 3
+								li.waves-effect
+									a(href="#!") 4
+								li.waves-effect
+									a(href="#!") 5
+								li.waves-effect
+									a(href="#!")
+										i.material-icons chevron_right
+						div.col.s12.m5.l5
+							i.material-icons.prefix search
+							textarea(placeholder="Search")#icon_prefix2.materialize-textarea
+							div.col.s6.m6.l6
+								img(src="images/ads/ad1.png").responsive-img
+							div.col.s6.m6.l6
+								img(src="images/ads/ad2.png").responsive-img
+							div.col.s6.m6.l6
+								img(src="images/ads/ad3.png").responsive-img
+							div.col.s6.m6.l6
+								img(src="images/ads/ad4.png").responsive-img
+							div.col.s12.m12.l12
+								h5 Blog Categories
+							div.col.s6.m6.l6
+								ul
+									li >Development
+									li >Design
+									li >Updates
+									li >Tutorial
+									li >News
+							div.col.s6.m6.l6
+								ul
+									li >Joomla
+									li >Wordpress
+									li >Drupal
+									li >Magento
+									li >Bootstrap
+							div.col.s12.m12.l12
+								h5 Tag Cloud
+								div.chip.blue.darken-4.white-text CSS3
+								div.chip.blue.darken-4.white-text HTML5
+								div.chip.blue.darken-4.white-text WordPress
+								div.chip.blue.darken-4.white-text Joomla
+								div.chip.blue.darken-4.white-text Drupal
+								div.chip.blue.darken-4.white-text Bootstrap
+								div.chip.blue.darken-4.white-text JQuery
+								div.chip.blue.darken-4.white-text Tutorial
+								div.chip.blue.darken-4.white-text Update
+				footer.cyan.darken-4
+					div.row
+						div.col.s12.m3.l3
+							h5.white-text About Us
+							p.grey-text.text-lighten-4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						div.col.s12.m3.l3
+							h5.white-text Links
+							ul.grey-text.text-lighten-4
+								li >Company Overview
+								li >Meet The Team
+								li >Our Awesome Partners
+								li >Our Services
+								li >Frequently Asked Questions
+								li >Contact Us
+								li >Privacy Policy
+								li >Tems Of Use
+								li >Copyright
+						div.col.s12.m3.l3
+							div.row
+								h5.white-text Latest Blog
+								div.col.s4.m4.l4
+									img(src="images/blog/avatar.jpg").responsive-img
+								div.col.s8.m8.l8
+									small.white-text Pellentesque habitant morbi tristique senectus 
+									br
+									small.white-text Posted 17 August 2013
+							div.row
+								div.col.s4.m4.l4
+									img(src="images/blog/thumb2.jpg").responsive-img
+								div.col.s8.m8.l8
+									small.white-text Pellentesque habitant morbi tristique senectus 
+									br
+									small.white-text Posted 17 August 2013
+							div.row
+								div.col.s4.m4.l4
+									img(src="images/blog/thumb3.jpg").responsive-img
+								div.col.s8.m8.l8
+									small.white-text Pellentesque habitant morbi tristique senectus 
+									br
+									small.white-text Posted 17 August 2013
+						div.col.s12.m3.l3
+							h5.white-text Address
+							address.grey-text.text-lighten-4 Twitter, Inc. 795 Folson Ave, Suite 600 San Francisco, CA 94107 P:(123)456-7890
+					div.row
+						div.col.s12.m12.l12
+							p.white-text © 2014 Copyright Text
+				
+				
+
+
+
+
+
+
+
+
+
+
+		script(src="js/jquery.js")
+		script(src="js/html5shiv.js")
+		script(src="js/materialize.min.js")
+		script(src="js/main.js")

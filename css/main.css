@@ -1,0 +1,79 @@
+/* HOME */
+.backg {
+  background-image: url(../images/slider/bg1.jpg);
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat; }
+
+.espacios {
+  margin: 0 !important; }
+
+.iconos-home {
+  background-color: #0B3B17;
+  padding: 20%;
+  border-radius: 50%;
+  margin-top: 8%;
+  margin-left: 7%; }
+
+.pad1 {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.prueba {
+  margin-top: -2% !important; }
+
+/* ABOUT US */
+.pad2 {
+  padding-left: 10%; }
+
+.bordes {
+  border: 4px solid white; }
+
+.senior {
+  font-size: 15px;
+  color: grey; }
+
+/*SERVICES*/
+.iconos-services {
+  background-color: grey;
+  padding: 20%;
+  border-radius: 50%;
+  margin-top: 8%;
+  margin-left: 7%; }
+
+.famous {
+  color: #A4A4A4; }
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
+
+/* Responsive */
+@media (min-width: 300px) and (max-width: 500px) {
+  .backg {
+    height: 0% !important; }
+  .letras {
+    font-size: 10px; }
+  .parrafo {
+    font-size: 8px; }
+  .iconos-home {
+    padding: 10px; }
+  .marketing {
+    font-size: 20px; }
+  .card {
+    font-size: 5px; } }
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  .backg {
+    height: 0%; }
+  .letras {
+    font-size: 20px; } }
